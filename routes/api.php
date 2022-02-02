@@ -3,22 +3,14 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\Registration\RegistrationController;
 use App\Http\Controllers\Api\User\PhotosController;
-use App\Http\Controllers\Api\Timezones\TimezonesController;
-use App\Http\Controllers\Api\Currencies\CurrenciesController;
-use App\Http\Controllers\Api\Countries\DistrictsController;
-use App\Http\Controllers\Api\Countries\CitiesController;
-use App\Http\Controllers\Api\Mix\TableChangesController;
 use App\Http\Controllers\Api\Gate\PermissionsController;
 use App\Http\Controllers\Api\Gate\RolesController;
-use App\Http\Controllers\Api\SuperAdmins\SuperAdminsController;
 use App\Http\Controllers\Api\Localizations\LanguageController;
 use App\Http\Controllers\Api\Localizations\LocalizationsController;
-use App\Http\Controllers\Api\Countries\CountriesController;
 use App\Http\Controllers\Api\User\UserController;
 use App\Http\Controllers\Api\Auth\LoginController;
 use App\Http\Controllers\Api\Auth\LogoutController;
 use App\Http\Controllers\Api\Logger\LoggerController;
-use App\Http\Controllers\Api\Register\RegisterController;
 use App\Http\Controllers\GlobalController;
 
 /*
