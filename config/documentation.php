@@ -25,7 +25,11 @@ return [
         "SuperAdmins",
         "Mix",
         "Gate",
-        "Register"
+        "Register",
+        "Countries",
+        "Currencies",
+        "Timezones",
+        "Localizations",
     ],
     "arrayRules" => [
         'serviceName' => [
