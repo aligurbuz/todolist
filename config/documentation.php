@@ -14,6 +14,7 @@ return [
         "Countries" => "This endpoint will return you the information of all countries.The countries service has post and put methods.However, its use is unnecessary.Therefore, it is the most correct method to request data from the service only with the GET method.",
         "Countries/Cities" => "It contains the data serving the cities connected to the countries.Cities are strictly associated with country_code.So be careful with your (country_code) value when saving a city.",
         "Countries/Districts" => "It contains the data serving the districts connected to the cities.Districts are strictly associated with city_code.So be careful with your (city_code) value when saving a district.",
+        "Items" => "A simple shopping list, just built basic.",
 
     ],
     'exceptMethods' => [
