@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\Items\ItemsController;
 use App\Http\Controllers\Api\Registration\RegistrationController;
 use App\Http\Controllers\Api\User\PhotosController;
 use App\Http\Controllers\Api\Gate\PermissionsController;
@@ -32,6 +33,10 @@ Route::get('testing',function(){
 });
 
 Route::middleware([])->group(function(){
+
+    Route::get('/items', [ItemsController::class,'get']);
+    Route::post('/items', [ItemsController::class,'create']);
+    Route::put('/items', [ItemsController::class,'update']);
 
     Route::get('/registration', [RegistrationController::class,'get']);
     Route::post('/registration', [RegistrationController::class,'create']);

@@ -14,5 +14,17 @@
     "user.user.create": {
         "class": "App\\Client\\User\\User\\Create\\CreateClient",
         "model": "user"
+    },
+    "items.items.get": {
+        "class": "App\\Client\\Items\\Items\\Get\\GetClient",
+        "model": "item"
+    },
+    "items.items.create": {
+        "class": "App\\Client\\Items\\Items\\Create\\CreateClient",
+        "model": "item"
+    },
+    "items.items.update": {
+        "class": "App\\Client\\Items\\Items\\Update\\UpdateClient",
+        "model": "item"
     }
 }

@@ -13,5 +13,10 @@
         "get": "App\\Client\\Timezones\\Timezones\\Get\\GetClient",
         "create": "App\\Client\\Timezones\\Timezones\\Create\\CreateClient",
         "update": "App\\Client\\Timezones\\Timezones\\Update\\UpdateClient"
+    },
+    "Item": {
+        "get": "App\\Client\\Items\\Items\\Get\\GetClient",
+        "create": "App\\Client\\Items\\Items\\Create\\CreateClient",
+        "update": "App\\Client\\Items\\Items\\Update\\UpdateClient"
     }
 }

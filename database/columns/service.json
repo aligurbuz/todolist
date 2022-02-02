@@ -34,5 +34,10 @@
     "Registration/registration": {
         "controller": "Registration",
         "dir": "Registration"
+    },
+    "Items/items": {
+        "controller": "Items",
+        "dir": "Items",
+        "model": "Item"
     }
 }
